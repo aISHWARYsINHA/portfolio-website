@@ -3,12 +3,15 @@ import { Code2, Palette, Rocket, Sparkles, Database, Globe } from "lucide-react"
 import headshotImage from "@assets/generated_images/professional_developer_headshot_portrait.png";
 
 const skills = [
-  { name: "React & TypeScript", icon: Code2 },
-  { name: "UI/UX Design", icon: Palette },
-  { name: "Node.js & APIs", icon: Database },
-  { name: "Responsive Design", icon: Globe },
-  { name: "Modern CSS", icon: Sparkles },
-  { name: "Performance", icon: Rocket },
+  { name: "Mathematics", icon: Code2 },
+  { name: "Physics", icon: Rocket },
+  { name: "Quantum Mechanics", icon: Sparkles },
+  { name: "Number Theory", icon: Database },
+  { name: "Combinatorics", icon: Palette },
+  { name: "TypeScript", icon: Code2 },
+  { name: "React", icon: Code2 },
+  { name: "Three.js", icon: Globe },
+  { name: "LaTeX", icon: Code2 },
 ];
 
 export function About() {
@@ -41,14 +44,7 @@ export function About() {
                 className="text-base md:text-lg leading-relaxed text-muted-foreground"
                 data-testid="text-about-bio"
               >
-                I'm a passionate developer with a keen eye for design, dedicated to creating
-                exceptional digital experiences. With expertise in modern web technologies and a
-                user-centered approach, I transform ideas into elegant, high-performance
-                applications.
-              </p>
-              <p className="text-base md:text-lg leading-relaxed text-muted-foreground">
-                When I'm not coding, you'll find me exploring new design trends, contributing to
-                open source, or experimenting with the latest web technologies.
+                I'm a high school student passionate about mathematics and physics. Currently preparing for IOQM (Indian Olympiad Qualifier in Mathematics) while exploring India's rich contributions to science and mathematics. My interests span from solving olympiad problems to understanding quantum mechanics and the universe.
               </p>
             </div>
 

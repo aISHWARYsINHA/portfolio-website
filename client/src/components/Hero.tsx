@@ -24,19 +24,19 @@ export function Hero() {
             className="text-6xl md:text-8xl font-bold tracking-tight text-white"
             data-testid="text-hero-name"
           >
-            Alex Morgan
+            Aishwary Sinha
           </h1>
           <p
             className="text-xl md:text-2xl font-semibold text-purple-100"
             data-testid="text-hero-title"
           >
-            Creative Developer & Designer
+            Student & Mathematics Enthusiast
           </p>
           <p
             className="text-base md:text-lg text-purple-200 max-w-2xl mx-auto leading-relaxed"
             data-testid="text-hero-tagline"
           >
-            Building beautiful, functional web experiences that delight users and solve real problems
+            Exploring mathematics olympiads, quantum mechanics, and India's scientific heritage
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-4">
